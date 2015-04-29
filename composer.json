@@ -1,0 +1,29 @@
+{
+  "name": "deimos/phpmorphy",
+  "keywords": ["phpmorphy", "php morphy"],
+  "description": "phpMorphy",
+  "homepage": "Wrapper for phpMorphy http://phpmorphy.sourceforge.net/",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Maxim Babichev",
+      "email": "maksim.babichev95@gmail.com",
+      "homepage": "http://babichev.net"
+    }
+  ],
+  "require": {
+    "php": ">=5.3.0",
+    "giggsey/libphonenumber-for-php": "~7.0"
+  },
+  "autoload": {
+    "classmap": [
+      "classes/Deimos/phpMorphy/src/common.php"
+    ],
+    "psr-0": {"Deimos": "classes/"}
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "2.*-dev"
+    }
+  }
+}
