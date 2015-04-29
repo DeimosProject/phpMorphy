@@ -1,8 +1,8 @@
 {
   "name": "deimos/phpmorphy",
   "keywords": ["phpmorphy", "php morphy"],
-  "description": "phpMorphy",
-  "homepage": "Wrapper for phpMorphy http://phpmorphy.sourceforge.net/",
+  "description": "Wrapper for phpMorphy http://phpmorphy.sourceforge.net/",
+  "homepage": "http://phpmorphy.sourceforge.net/",
   "license": "MIT",
   "authors": [
     {
